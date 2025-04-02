@@ -22,7 +22,6 @@ img {
 }
 
 .first {
-    background-color: blue;
     width: 100%;
     height: 100%;
     display: flex;
@@ -40,7 +39,6 @@ img {
 }
 
 .second {
-    background-color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +50,14 @@ img {
 }
 
 .third {
-    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third .text {
+    text-align: center;
+    justify-content: center;
 }
 
 .fourth {
@@ -60,6 +65,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-blend-mode: multiply;
 }
 
 .fourth h2 {
@@ -71,11 +77,12 @@ img {
 }
 
 .fifth {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(161, 161, 161);
     padding: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-blend-mode: multiply;
 }
 
 .fifth h2 {
