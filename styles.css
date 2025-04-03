@@ -17,8 +17,13 @@ h1 {
     margin: 20px;
 }
 
+p {
+    font-size: large;
+    margin: 20px;
+}
+
 img {
-    width: 60%;
+    margin: 0;
 }
 
 .first {
@@ -36,6 +41,9 @@ img {
     align-items: center;
     width: 50%;
     height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(161, 161, 161);
 }
 
 .second {
@@ -92,4 +100,15 @@ img {
 .fifth a {
     margin: 20px;
     font-size: large;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .first,
+    .second,
+    .third,
+    .fourth,
+    .fifth {
+        flex-direction: column;
+    }
 }
